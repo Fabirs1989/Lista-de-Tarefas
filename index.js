@@ -52,7 +52,7 @@ function insertItemTela(text, status, i) {
     <div class="divLi">
       <input type="checkbox" ${status} data-i=${i} onchange="done(this, ${i});" />
       <span data-si=${i}>${text}</span>
-      <button onclick="removeItem(${i})" data-i=${i}><i class='bx bx-trash'></i></button>
+      <button onclick="removeItem(${i})" data-i=${i}><i class='bx bx-check-square'></i></button>
     </div>
     `
   ul.appendChild(li)
